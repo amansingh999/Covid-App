@@ -1,38 +1,43 @@
-.App {
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    background-attachment: fixed;
+}
+
+.dropdown{
+  width: 20%;
+}
+
+.dropdown_container{
+  padding-top: 100px;
+  padding-left: 45%;
+}
+
+.covid_heading{
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.search_button{
+  padding-top: 50px;
+  padding-left: 48%;
+}
+
+.grid_padding{
+  padding: 0 50px 100px 200px;
+}
+
+.inner_grid{
+  height: 300px;
+  width: 70%;
+  margin-top: 100px;
+}
+
+.covid_result_heading{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
